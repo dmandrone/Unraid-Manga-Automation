@@ -44,6 +44,7 @@ Transparently, this was built "vibe coding" with ChatGPT and Claude.
 * It will skip all files that do not contain a chapter or volume number (*except for cases listed below).
 * It will handle Omnibus/Deluxe/Special edition tags and add those to the final file name should they be included in the original files, even if no chapter or volume number is included in the original file.
 * It will handle OneShot tags and appropriately process them even if they do not contain a volume or chapter number.
+* It will handle range selections. For example: 'Todai Revengers v01-02.cbz' will output as 'Todai Revengers - Volume 001-002.cbz'.
 
 ### There are so many edge cases for manga processing, it probably can't cover of all of the possibilities of errors it could run into. I tried my best to think of as many as possible and make sure they were resolved.
 
