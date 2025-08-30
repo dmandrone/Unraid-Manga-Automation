@@ -21,9 +21,9 @@ Here's what it does:
 
 ## Built With
 
-Transparently, this was built "vibe coding" via ChatGPT and Claude.
+Transparently, this was built "vibe coding" with ChatGPT and Claude.
 
-## Installation
+## Setup
 
 1. Install the 'User Scripts' Unraid Plugin.
 2. Navigate to the User Scripts plugin via the 'Settings' page.
@@ -33,9 +33,7 @@ Transparently, this was built "vibe coding" via ChatGPT and Claude.
 6. Set the schedule at which you want this script to automatically run. I have it run once a day at 11pm so that it processes files prior to my 12am daily Kavita scan. Cron for this: 0 23 * * *.
 7. Done!
 
-## Usage
-
-Further Examples:
+## File Examples
 
 * Source: '/mangaprocessing/Me and the Devil Blues_ The Unreal Life of Robert Johnson/site.com_Ch. 38.cbz' ---> Output: '/manga/Me and the Devil Blues - The Unreal Life of Robert Johnson (2003) - Akira Hiramoto/Me and the Devil Blues - The Unreal Life of Robert Johnson - Chapter 038.cbz'
 * Source '/mangaprocessing/Berserk v42 (2025) (Digital) (releasegroup).cbz' ---> Output: '/manga/Berserk (1989) - Kentaro Miura/Berserk - Volume 042.cbz'
