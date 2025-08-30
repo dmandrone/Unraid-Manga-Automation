@@ -41,8 +41,9 @@ Transparently, this was built "vibe coding" with ChatGPT and Claude.
 ## Extra Notes
 
 * It will handle if a file is in a SRC folder without its own folder to encompass it. It will need to read the metadata from the file instead of the folder this time around.
-* It will skip all files that do not contain a chapter or volume number (*except for case listed below). -- Could make adjustment to have it automatically assign Volume/Chapter 001 to these types of files if people care.
+* It will skip all files that do not contain a chapter or volume number (*except for cases listed below).
 * It will handle Omnibus/Deluxe/Special edition tags and add those to the final file name should they be included in the original files, even if no chapter or volume number is included in the original file.
+* It will handle OneShot tags and appropriately process them even if they do not contain a volume or chapter number.
 
 ### There are so many edge cases for manga processing, it probably can't cover of all of the possibilities of errors it could run into. I tried my best to think of as many as possible and make sure they were resolved.
 
